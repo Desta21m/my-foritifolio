@@ -1,38 +1,190 @@
-.App {
+/* global css */
+body{
+  margin: 0;
+  font-family:sans-serif;
+
+}
+h1, h2,h3, h4, h5, h6,p{
+  margin: 0;
+}
+:root{
+  --primary: #fce9a6;
+  --heading: #FEC800;
+  --bg-shade: #474234;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+.btn{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
   text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  transition: background-color 0.5s;
+  -webkit-transition:background-color 0.5s;
+  -moz-transition:background-color 0.5s;
+  -ms-transition:background-color 0.5s;
+  -o-transition:background-color 0.5s;
+}
+.btn-outline-primary{
+  color: var(--bg-shade);
+  background-color: var(--white);
+  border: 1px solid var(--bg-shade);
+}
+.btn-outline-primary:hover{
+  color: var(--white);
+  background-color: var(--bg-shade);
+}
+.btn-primary{
+  color: var(--white);
+  background-color: var(--bg-shade);
+  border: 1px solid var(--bg-shade);
+}
+.btn-primary:hover{
+  color: var(--bg-shade );
+  background-color: var(--white );
+}
+.bt-gethub{
+  color: var(--white);
+  background-color: var(--bg-shade);
+  border: var(--bg-shade);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
+  gap: 16px;
+}
+.bt-gethub:hover{
+  color: var(--bg-shade);
+  background-color: var(--white);
+}
+/* Global css ends*/
+/*main hading*/
+
+/*heding 1*/
+h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+/*heding 2*/
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+/*heding 3*/
+h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+/*paragraph text large midum small*/
+/*body 1*/
+.text-lg{
+  color: var(--bg-shade);
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 27px;
+}
+/*body 2*/
+.text-md{
+  color: var(--bg-shade);
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+}
+/*body 3*/
+.text-sm{
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 21px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*section titiles*/
+/*skills and about me*/
+.section-title{
+  font-size: 21px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  color: var(--bg-shade);
+  text-align: center;
+  align-items:flex-start;
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*portifolio testimonio and contact me*/
+.sub-titile{
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
 }
+/*section titile ends*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*hero section style*/
+.hero--section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 133.333px 85.333px 133.333px;
+  align-items:center;
+  justify-content: space-between;
+  gap: 32px;
+  background-color: var(--primary);
+}
+.hero--section--content--box{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:flex-start;
+  gap: 32px;
 }
-
-.App-link {
-  color: #61dafb;
+.hero--section-content{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  gap: 21.333px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero--section--content--box > button{
+  margin-top: 21.333px;
 }
+.hero--section--titile{
+  color: var(--bg-shade);
+  font-size: 74.667px;
+  font-weight: 700;
+  line-height: 90px;
+  align-self: stretch;
+}
+.hero--section--titile--color{
+  color: var(--bg-shade);
+}
+.hero--section--description{
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  align-self: stretch;
+}
+.hero--section-img{
+  display: flex;
+}
+.hero--section-img > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+}
+/*hero section stayl ends*/
