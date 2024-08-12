@@ -1,0 +1,133 @@
+.skills-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 0px 0px;
+}
+
+.skill-category {
+  margin-bottom: 0px;
+}
+
+.skill-category h2 {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #333;
+}
+
+.skill {
+  margin-bottom: 5px;
+}
+
+.skill-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden; /* Ensures the progress bar stays within bounds */
+}
+
+.progress {
+  height: 10px;
+  background-color: #ffb325;
+  border-radius: 5px;
+  transition: width 1s;
+  position: relative;
+}
+
+.percentage {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+
+/* Mobile Phones */
+@media (max-width: 767px) {
+  .skills-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .skill-category h2 {
+    font-size: 20px;
+  }
+
+  .skill-name {
+    font-size: 14px;
+  }
+
+  .progress {
+    height: 8px;
+  }
+
+  .percentage {
+    font-size: 10px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .skills-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 15px;
+  }
+
+  .skill-category h2 {
+    font-size: 22px;
+  }
+
+  .skill-name {
+    font-size: 16px;
+  }
+
+  .progress {
+    height: 9px;
+  }
+
+  .percentage {
+    font-size: 11px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .skills-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .skill-category h2 {
+    font-size: 24px;
+  }
+
+  .skill-name {
+    font-size: 18px;
+  }
+
+  .progress {
+    height: 10px;
+  }
+
+  .percentage {
+    font-size: 12px;
+  }
+}
+
+  
+  
+  

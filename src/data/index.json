@@ -1,0 +1,79 @@
+{
+        "skills": [
+      {
+        "id": "1",
+        "src": "./img/fe.png",
+        "title": "Front-End Development",
+        "description": "Expertise in crafting responsive, user-friendly interfaces using the latest web technologies, ensuring seamless and engaging user experiences."
+      },
+      {
+        "id": "2",
+        "src": "./img/be.png",
+        "title": "Back-End Development",
+        "description": "Proficient in building robust and scalable server-side applications, managing databases, and ensuring data security and integrity."
+      },
+      {
+        "id": "3",
+        "src": "./img/ui.png",
+        "title": "UI & UX Design",
+        "description": "Skilled in designing intuitive and visually appealing user interfaces, focusing on enhancing usability and optimizing user interaction."
+      },
+      {
+        "id": "4",
+        "src": "./img/sd.png",
+        "title": "Software Architecture",
+        "description": "Experienced in designing scalable and efficient software architectures, ensuring optimal performance, maintainability, and alignment with business goals."
+      }
+    ]
+    ,
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/travelconcirge1.jpg",
+        "title": "Travel Concierge",
+        "description": "This web system supports hotel guests in accessing essential services such as room booking, retail, and transport. It enhances the guest experience by offering convenience and ease during their stay.",
+        "link": "View In Github"
+      },
+      {
+        "id": "2",
+        "src": "./img/softwareTool1.jpg",
+        "title": "Software Tool",
+        "description": "A desktop application designed for software architects and developers. It simplifies code generation by converting design into functional code with a single click, focusing on system logic.",
+        "link": "View In Github"
+      },
+      {
+        "id": "3",
+        "src": "./img/memoryGame1.jpg",
+        "title": "Memory Game",
+        "description": "A simple yet engaging memory game that challenges players to match pairs of cards. It sharpens memory skills and provides a fun, interactive gaming experience for users of all ages.",
+        "link": "https://github.com/Desta21m/memoryGame"
+      }
+    ],
+   "testimonial": [
+      {
+        "id": "1",
+        "count": "5",
+        "src": "./img/avatar-image.png",
+        "description": "Desta consistently demonstrates exceptional problem-solving skills and creativity. They approach complex assignments with a unique perspective, delivering solutions that exceed expectations. A true leader in the classroom.",
+        "author_name": "John Smith",
+        "author_designation": "Senior Lecturer, Software Engineering"
+      },
+      {
+        "id": "2",
+        "count": "5",
+        "src": "./img/avatar-image-1.png",
+        "description": "Working with Desta has been an absolute pleasure. Their ability to take on challenging projects and provide innovative solutions is truly remarkable. They are a standout student in every sense.",
+        "author_name": "Jane Doe",
+        "author_designation": "Course Instructor, Software Development"
+      },
+      {
+        "id": "3",
+        "count": "5",
+        "src": "./img/avatar-image-2.png",
+        "description": "Desta's commitment to quality and timely delivery is unparalleled. They treat every project as if it were for a real client, and their work consistently reflects this dedication. A highly recommended team player.",
+        "author_name": "Michael Johnson",
+        "author_designation": "Professor, Computer Science"
+      }
+]
+
+  }
